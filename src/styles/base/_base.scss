@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: $dark-blue;
+  margin:0;
+  font-family: Alata, Arial, sans-serif;
+  font-size: $m-size;
+}
+
+button {
+  cursor: pointer;
+  font-family: Alata;
+}
+
+button:disabled {
+  cursor: default;
+}
